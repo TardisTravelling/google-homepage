@@ -24,8 +24,35 @@
                 border-radius: 25px;
                 width: 300px;
             }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+            }
+            a {
+                display: float;
+                padding: 8px;
+                text-decoration: none;
+                color:gray;
+            }
+            .navbar-footer {
+                overflow: hidden;
+                position: fixed;
+                bottom: 0;
+            }
         </style>
         <body>
+            <navbar>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Store</a></li>
+                    <li style="float:right"><a href="">Gmail</a></li>
+                    <li style="float:right"><a href="">Images</a></li>
+                </ul>
+            </navbar>
             <img alt="Google Logo" class="center" src="https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
             <form action="">
                 <p>
@@ -37,6 +64,16 @@
                     <button type="button">
                         I'm Feeling Lucky
                     </button>
+                    <div class="navbar-footer">
+                        <ul>
+                            <li><a href="">Advertising</a></li>
+                            <li><a href="">Business</a></li>
+                            <li><a href="">How Search Works</a></li>
+                            <li style="float:right"><a href="">Privacy</a></li>
+                            <li style="float:right"><a href="">Terms</a></li>
+                            <li style="float:right"><a href="">Settings</a></li>
+                        </ul>
+                    </div>
                 </p>
             </form>
         </body> 
